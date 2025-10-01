@@ -8,5 +8,6 @@ public class Product
     public string Description { get; set; }
     public bool IsSoldOut { get; set; }
     public bool IsHidden { get; set; }
+    public DateTime LastModifiedAt { get; set; }
     public IEnumerable<Image> Images { get; set; }
 }
